@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SanityTestCases"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.393">
+  <properties />
+  
+  
+            <testcase name="testDpvSave" time="0.688" classname="com.tfsinc.ilabs.tests.SaveDeleteApiTests" />
+                <testcase name="testDpgSave" time="0.690" classname="com.tfsinc.ilabs.tests.SaveDeleteApiTests" />
+                <testcase name="testDpDelete" time="0.671" classname="com.tfsinc.ilabs.tests.SaveDeleteApiTests" />
+                <testcase name="testDpgDelete" time="0.654" classname="com.tfsinc.ilabs.tests.SaveDeleteApiTests" />
+                <testcase name="testDpSave" time="0.690" classname="com.tfsinc.ilabs.tests.SaveDeleteApiTests" />
+      
+</testsuite>

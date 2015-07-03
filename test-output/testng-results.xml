@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RestAPISuit" duration-ms="17046" started-at="2015-06-15T09:44:24Z" finished-at="2015-06-15T09:44:42Z">
+    <groups>
+    </groups>
+    <test name="SanityTestCases" duration-ms="17046" started-at="2015-06-15T09:44:24Z" finished-at="2015-06-15T09:44:42Z">
+      <class name="com.tfsinc.ilabs.tests.SaveDeleteApiTests">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.tfsinc.ilabs.tests.SaveDeleteApiTests@628e5ef0]" name="init" is-config="true" duration-ms="0" started-at="2015-06-15T09:44:38Z" finished-at="2015-06-15T09:44:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testDpgSave(com.tfsinc.ilabs.dto.dpgsavedto.DpgSaveDTO)[pri:0, instance:com.tfsinc.ilabs.tests.SaveDeleteApiTests@628e5ef0]" name="testDpgSave" duration-ms="690" started-at="2015-06-15T09:44:38Z" data-provider="dpgSave" finished-at="2015-06-15T09:44:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DpgSaveDTO{_id='groupSaveDelete', status='ACTIVE', runType='H', dimension=[Standard, Queue, Rule, TP], isLocked=false, dataPointDefs=[DpSaveDTO{name='MatrixSaveDelete1', status='ACTIVE', codeName='matrixsavedelete1', operator='MULTIVALUE', condition='e_ec == '100001'', dataPointType='oe', isDiscoverable=true, eventCode='100001', isDerived=false, isMultiValue=true, dataPointDefVariables=[DpDefVariablesSaveDTO{expVariable='v1', jsonPath='e.ec', dataType='STRING'}, DpDefVariablesSaveDTO{expVariable='e_ec', jsonPath='e.ec', dataType='STRING'}]}]}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDpgSave -->
+        <test-method status="PASS" signature="testDpSave(com.tfsinc.ilabs.dto.dpgsavedto.DpSaveDTO)[pri:0, instance:com.tfsinc.ilabs.tests.SaveDeleteApiTests@628e5ef0]" name="testDpSave" duration-ms="690" started-at="2015-06-15T09:44:39Z" data-provider="dpSave" finished-at="2015-06-15T09:44:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DpSaveDTO{name='MatrixSaveDelete2', status='ACTIVE', codeName='matrixsavedelete2', operator='UCOUNT', condition='e_ec == 'sessionID'', dataPointType='ai', isDiscoverable=true, eventCode='sessionID', isDerived=false, isMultiValue=false, dataPointDefVariables=[DpDefVariablesSaveDTO{expVariable='v1', jsonPath='e.ai', dataType='STRING'}, DpDefVariablesSaveDTO{expVariable='eventType', jsonPath='eventType', dataType='STRING'}]}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDpSave -->
+        <test-method status="PASS" signature="testDpDelete()[pri:0, instance:com.tfsinc.ilabs.tests.SaveDeleteApiTests@628e5ef0]" name="testDpDelete" duration-ms="671" started-at="2015-06-15T09:44:39Z" finished-at="2015-06-15T09:44:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDpDelete -->
+        <test-method status="PASS" signature="testDpgDelete()[pri:0, instance:com.tfsinc.ilabs.tests.SaveDeleteApiTests@628e5ef0]" name="testDpgDelete" duration-ms="654" started-at="2015-06-15T09:44:40Z" finished-at="2015-06-15T09:44:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDpgDelete -->
+        <test-method status="PASS" signature="testDpvSave(com.tfsinc.ilabs.dto.dpvsavedeleteupdatedto.DpvSaveDTO)[pri:0, instance:com.tfsinc.ilabs.tests.SaveDeleteApiTests@628e5ef0]" name="testDpvSave" duration-ms="688" started-at="2015-06-15T09:44:41Z" data-provider="dpvSave" finished-at="2015-06-15T09:44:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DpvSaveDTO{_id='default_matrix1_1430802000000_1430805600000', name='Matrix1', codeName='matrix1', shortDesc='Test DPV SAVE', totalRecordCount='99', matchingRecordCount='999', queueName='default', startTime='Tue May 05 05:00:00 UTC 2015', endTime='Tue May 05 06:00:00 UTC 2015'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDpvSave -->
+      </class> <!-- com.tfsinc.ilabs.tests.SaveDeleteApiTests -->
+      <class name="com.tfsinc.ilabs.tests.SearchApiTests">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.tfsinc.ilabs.tests.SearchApiTests@2508d3eb]" name="init" is-config="true" duration-ms="6339" started-at="2015-06-15T09:44:25Z" finished-at="2015-06-15T09:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testDPDimension()[pri:0, instance:com.tfsinc.ilabs.tests.SearchApiTests@2508d3eb]" name="testDPDimension" duration-ms="2638" started-at="2015-06-15T09:44:31Z" finished-at="2015-06-15T09:44:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDPDimension -->
+        <test-method status="PASS" signature="testDPSearch()[pri:0, instance:com.tfsinc.ilabs.tests.SearchApiTests@2508d3eb]" name="testDPSearch" duration-ms="673" started-at="2015-06-15T09:44:34Z" finished-at="2015-06-15T09:44:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDPSearch -->
+        <test-method status="PASS" signature="testDPValueByQueueHourlyWithWithoutTimeZone()[pri:0, instance:com.tfsinc.ilabs.tests.SearchApiTests@2508d3eb]" name="testDPValueByQueueHourlyWithWithoutTimeZone" duration-ms="916" started-at="2015-06-15T09:44:34Z" finished-at="2015-06-15T09:44:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDPValueByQueueHourlyWithWithoutTimeZone -->
+        <test-method status="PASS" signature="testDPValueOverAllDailyWithWithoutTimeZone()[pri:0, instance:com.tfsinc.ilabs.tests.SearchApiTests@2508d3eb]" name="testDPValueOverAllDailyWithWithoutTimeZone" duration-ms="459" started-at="2015-06-15T09:44:35Z" finished-at="2015-06-15T09:44:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDPValueOverAllDailyWithWithoutTimeZone -->
+        <test-method status="PASS" signature="testDPValueOverAllHourlyWithWithoutTimeZone()[pri:0, instance:com.tfsinc.ilabs.tests.SearchApiTests@2508d3eb]" name="testDPValueOverAllHourlyWithWithoutTimeZone" duration-ms="913" started-at="2015-06-15T09:44:36Z" finished-at="2015-06-15T09:44:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDPValueOverAllHourlyWithWithoutTimeZone -->
+        <test-method status="PASS" signature="testDPValueOverAllMonthly()[pri:0, instance:com.tfsinc.ilabs.tests.SearchApiTests@2508d3eb]" name="testDPValueOverAllMonthly" duration-ms="452" started-at="2015-06-15T09:44:36Z" finished-at="2015-06-15T09:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDPValueOverAllMonthly -->
+        <test-method status="PASS" signature="testDPValueOverAllWeekly()[pri:0, instance:com.tfsinc.ilabs.tests.SearchApiTests@2508d3eb]" name="testDPValueOverAllWeekly" duration-ms="451" started-at="2015-06-15T09:44:37Z" finished-at="2015-06-15T09:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDPValueOverAllWeekly -->
+        <test-method status="PASS" signature="testDpgSearch()[pri:0, instance:com.tfsinc.ilabs.tests.SearchApiTests@2508d3eb]" name="testDpgSearch" duration-ms="671" started-at="2015-06-15T09:44:37Z" finished-at="2015-06-15T09:44:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDpgSearch -->
+      </class> <!-- com.tfsinc.ilabs.tests.SearchApiTests -->
+    </test> <!-- SanityTestCases -->
+  </suite> <!-- RestAPISuit -->
+</testng-results>
